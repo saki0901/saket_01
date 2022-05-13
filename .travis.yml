@@ -12,12 +12,12 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: 'us-east-1'
-  app: 'saket_01'
-  env: 'Saket01-env'
-  bucket_name: 'elasticbeanstalk-us-east-1-824729742367'
-  bucket_path: 'saket_01'
+  region: "us-east-1"
+  app: "saket_01"
+  env: "Saket01-env"
+  bucket_name: "elasticbeanstalk-us-east-1-824729742367"
+  bucket_path: "saket_01"
   on:
-    branch: master
+    branch: main
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
